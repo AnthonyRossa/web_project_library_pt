@@ -117,6 +117,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
+  justify-content: stretch;
   padding: 0;
   list-style-type: none;
 }
