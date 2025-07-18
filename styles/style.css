@@ -311,11 +311,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  column-gap: 40px;
 }
 
 .step {
-  max-width: 220px;
-  margin-right: 40px;
+  flex-basis: 220px;
 }
 
 .step__title {
@@ -348,8 +348,11 @@
 }
 
 .footer__column_content_hours {
-  margin-right: 80px;
   margin-left: auto;
+}
+
+.footer__column_content_social {
+  margin-left: 80px;
 }
 
 .footer__logo {
@@ -376,10 +379,12 @@
 .footer__column-link {
   color: white;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
 }
 
 .footer__social-icon {
-  margin-right: 10px;
   height: 16px;
   width: 16px;
 }
